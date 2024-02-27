@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "invclone",
+  "version": "${version}",
+  "name": "InvClone",
+  "description": "Simple Single Player, Client Side Fabric Mod for Copying Inventories Between Worlds ",
+  "authors": [
+    "njsharpe"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.njsharpe.invclone.InvCloneMod"
+    ],
+    "client": [
+      "net.njsharpe.invclone.InvCloneClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
